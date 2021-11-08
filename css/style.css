@@ -1,0 +1,145 @@
+/*
+Colors
+Warm Gray: #D9D3CF
+Light Gray: #F2ECE8
+SkyBlue: #87CEEB
+Alice Blue: #F0F8FF
+RebeccaPurple: #663399
+*/
+
+/* fonts */
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto.ttf") format('truetype');
+}
+
+/* general styling. */
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 300; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #4a4a4a;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+
+span {
+  font-family: 'Roboto', serif;
+  line-height: 1.25em;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+blockquote {
+  font-family: 'Roboto', serif;
+  font-size: 1.5em;
+  line-height: 1.25em;
+  font-weight: 100;
+  font-style: italic;
+  text-align: center;
+  border: 1px solid #663399;
+  margin: auto;
+  padding: 50px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.labels {
+  font-size: 0.75em;
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.centered {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.topcorrect {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+/* imagery */
+img {
+  max-width: 100%;
+}
+
+.fullcover {
+  width: 100%;
+}
+
+/* links and buttons */
+a,
+a:visited {
+  color: #F0F8FF;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #000;
+  text-decoration: underline;
+}
+
+.button,
+.button:visited {
+  display: inline-block;
+  background-color: transparent;
+  color: #F0F8FF;
+  font-weight: 400;
+  padding: 10px 26px;
+  border-radius: 4px;
+  border: 2px solid #F0F8FF;
+  transition-duration: 0.2s;
+  transition-property: opacity;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  display: inline-block;
+  background-color: #663399;
+  color: #fff;
+  border: 2px solid #F0F8FF;
+  text-decoration: none;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.inlinelink {
+  color: #663399;
+  text-decoration: none;
+}
