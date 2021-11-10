@@ -8,10 +8,7 @@ RebeccaPurple: #663399
 */
 
 /* fonts */
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto.ttf") format('truetype');
-}
+
 
 /* general styling. */
 body {
