@@ -12,7 +12,7 @@ RebeccaPurple: #663399
 
 /* general styling. */
 body {
-  background-color: #ffffff;
+  background-color: #F0F8FF;
   font-family: 'Roboto', sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
@@ -105,7 +105,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-  color: #000;
+  color: #00000;
   text-decoration: underline;
 }
 
@@ -140,3 +140,74 @@ a:active {
   color: #663399;
   text-decoration: none;
 }
+
+/*HOMEPAGE*/
+.logo {
+  max-width: 250px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+#work .row { padding-bottom: 25px; border-bottom: 1px solid #F0F8FF; }
+
+/* header and footer*/
+header {
+  background-color: #87CEEB
+  text-align: center;
+  padding: 10px;
+  margin: 10 px;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #663399;
+}
+
+/*hero*/
+#hero {
+  background-color: #87CEEB;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+
+
+
+
+
+
+/*hero*/
+/*
+footer {
+  text-align: center;
+  background color: #000
+  padding: 10px;
+}
+
+social media{
+  text-align: center;
+}
+social a {
+  display: inline-block;
+  margin: 0 5px;
+}
+.social media svg {
+  width: 50 px;
+  height: auto;
+}
+
+/*
