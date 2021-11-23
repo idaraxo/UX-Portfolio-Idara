@@ -25,8 +25,8 @@ body {
 }
 
 .container {
-  max-width: 1200 px;
-  padding: 0 15 px;
+  max-width: 1200px;
+  padding: 0 15px;
 }
 
 /* //////////////////////// typography */
@@ -128,7 +128,7 @@ a:active {
 .button:visited {
   display: inline-block;
   background-color: transparent;
-  color: #F0F8FF;
+  color: #663399;;
   font-weight: 400;
   padding: 10px 26px;
   border-radius: 4px;
@@ -209,6 +209,22 @@ footer a {
   position: relative;
 }
 
+/* ///////////////////////////////////////// social media icons */
+
+.social {
+  text-align: center;
+}
+
+.social a.  {
+display: inline-block;
+margin: 0 20 px;
+}
+
+.social svg {
+width: 50px;
+height: auto;
+
+}
 
 
 
