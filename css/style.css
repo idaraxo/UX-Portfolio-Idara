@@ -134,7 +134,7 @@ a:active {
 .button,
 .button:visited {
   display: inline-block;
-  background-color: transparent;
+  background-color: #F2ECE8;
   color: #663399;;
   font-weight: 400;
   padding: 10px 26px;
@@ -152,6 +152,8 @@ a:active {
   color: #fff;
   border: 2px solid #F2ECE8;
   text-decoration: none;
+  padding: 10px;
+  transition: 0.2s opacity;
 }
 
 .button:hover {
@@ -190,9 +192,6 @@ nav > ul > li > a {
   color: #663399;
 }
 
-/* ///////////////////////// Footer*/
-
-
 
 /* ///////////////////////// Homepage*/
 
@@ -216,7 +215,7 @@ footer a {
   position: relative;
 }
 
-/* ///////////////////////////////////////// social media icons */
+/* ///////////////////////////////////////// footer and social media icons */
 
 .social {
   text-align: center;
@@ -228,7 +227,7 @@ margin: 0 20 px;
 }
 
 .social svg {
-width: 50px;
+width: 20px;
 height: auto;
 
 }
@@ -239,11 +238,40 @@ height: auto;
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
-  /*header and nav bar*/
+  /* ////////////////////header and nav bar*/
   header {
     text-align: unset;
     padding: 20px 0 13px;
   }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  nav > ul {
+    margin:   1em 0;
+  }
+
+  nav. > ul > li {
+    display: inline-block;
+  }
+
+  
+  nav a {
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+  }
+
+/* home page hero */
+
+#hero span {
+  display: block;
+}
+
+/* ////////////////////////continue styling */
+
  .container {
     margin: 0 1.75em;
   }
@@ -257,45 +285,43 @@ Medium devices (640px and larger)
     float: left;
   }
 
-  #animation {
+  .row::after{
+    content:""
+    clear: both;
+    display: table;
+  }
+
+   #animation {
     float: left;
-  }
-
-  .prev-proj {
-    padding: 0;
-  }
-
-  .next-proj {
-    padding: 0;
   }
 
   .button {
     margin: 16px 0;
   }
 
-    /* //////////////////////////// Typography */
+/* //////////////////////////// Typography */
   body {
     font-size: 18px;
   }
+ 
+/* ///////////////////////////about page */
 
-  /* Header and Nav bar */
-  nav a {
-    padding-left: 1.2em;
-    padding-right: 1.2em;
+  #about-page h3{
+    margin-top: 0;
   }
 
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 4px;
+  h2{
+    text-align: center;
   }
+
+  #my-img{
+    width: 500px;
+  }
+
+ 
+  
 }
 
-/* home page */
-
-#hero span {
-  display: block;
-}
 
 /* ==============================
 Large devices (1024px or larger)
@@ -317,6 +343,54 @@ Large devices (1024px or larger)
     margin-right: auto;
   }
 }
+
+/* ==============================
+X-Large devices (1440px or larger) code woul be @media only screen and (min-width: 1440px) {}
+================================= */
+@media only screen and (min-width: 1440px) {
+
+}
+
+.imgwrapper,
+.deswrapper {
+  padding: 10px;
+}
+
+@keyframes color-change {
+  0% {
+    fill: #fff200;
+  }
+
+  50% {
+    fill: #fcffad;
+  }
+
+  100% {
+    fill: #f76414;
+  }
+}
+
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
+
+@keyframes cloud-move {
+  from {
+    transform: translate(0, 1px);
+  }
+
+  to {
+    transform: translate(200px, 1px);
+  }
+}
+
+.clouds {
+  animation: 30s cloud-move infinite alternate linear;
+}
+
+
+
+
 
 /*. is thiss necessary ????
 
