@@ -152,7 +152,7 @@ a:active {
   color: #fff;
   border: 2px solid #F2ECE8;
   text-decoration: none;
-  padding: 10px;
+  padding: 10px 26px;
   transition: 0.2s opacity;
 }
 
@@ -221,13 +221,13 @@ footer a {
   text-align: center;
 }
 
-.social a.  {
+.social a  {
 display: inline-block;
-margin: 0 20 px;
+margin: 0 5px;
 }
 
-.social svg {
-width: 20px;
+.social svg .social img {
+width: 30px;
 height: auto;
 
 }
