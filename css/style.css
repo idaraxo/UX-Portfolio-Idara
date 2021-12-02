@@ -176,9 +176,14 @@ header {
   margin: 10px;
 }
 
+main {
+  padding-top: 56px;
+}
+
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 1em 0;
 }
 
 nav > ul > li {
@@ -190,6 +195,18 @@ nav > ul > li > a, nav > ul > li > a:visited {
   text-transform: uppercase;
   font-weight: 700;
   color: #663399;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle.responsive li  {
+  display: block;
 }
 
 
