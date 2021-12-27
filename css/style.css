@@ -212,11 +212,11 @@ nav > ul > li > a, nav > ul > li > a:visited {
 .navtoggle li .icon{
   right: 0;
   top: 2px;
-  font-size: 20 px;
+  font-size: 20px;
 }
 
 .navtoggle.responsive nav {
-  padding 24px 0 0;
+  padding 24px 0;
 }
 
 .navtoggle.responsive li {
@@ -315,7 +315,7 @@ Medium devices (640px and larger)
   padding: 0;
 }
   
-  nav a {
+nav a {
     padding-left: 1.2em;
     padding-right: 1.2em;
   }
