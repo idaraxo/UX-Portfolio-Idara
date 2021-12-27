@@ -210,7 +210,6 @@ nav > ul > li > a, nav > ul > li > a:visited {
 }
 
 .navtoggle li .icon{
-  position absolute;
   right: 0;
   top: 2px;
   font-size: 20 px;
