@@ -1,0 +1,466 @@
+/*
+Colors
+Warm Gray: #D9D3CF
+Light Gray: #F2ECE8
+SkyBlue: #87CEEB
+Alice Blue: #F0F8FF
+RebeccaPurple: #663399
+*/
+
+/* fonts */
+
+
+/* //////////////////////////////general styling. */
+body {
+  background-color: #F0F8FF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 300; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #4a4a4a;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.logo {
+  display: block;
+  width: 50px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* //////////////////////// typography */
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+
+blockquote {
+  font-family: 'Roboto', serif;
+  font-size: 1.5em;
+  line-height: 1.25em;
+  font-weight: 100;
+  font-style: italic;
+  text-align: center;
+  border: 1px solid #663399;
+  margin: auto;
+  padding: 50px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* //////////////////////// Misc styling */
+
+.labels {
+  font-size: 0.75em;
+  text-align: center;
+}
+
+/* //////////////////////// Alignment */
+
+.left {
+  text-align: left;
+}
+
+.centered {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.topcorrect {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+/* //////////////////////// imagery */
+img {
+  max-width: 100%;
+}
+
+.fullcover {
+  width: 100%;
+}
+
+/* //////////////////////////// links */
+a,
+a:visited {
+  color: #F0F8FF;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.inlinelink {
+  color: #663399;
+  text-decoration: none;
+}
+
+/* //////////////////////////// buttons */
+
+.button,
+.button:visited {
+  display: inline-block;
+  background-color: #F2ECE8;
+  color: #663399;;
+  font-weight: 400;
+  padding: 10px 26px;
+  border-radius: 4px;
+  border: 2px solid #87CEEB;
+  transition-duration: 0.2s;
+  transition-property: opacity;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  display: inline-block;
+  background-color: #663399;
+  color: #fff;
+  border: 2px solid #F2ECE8;
+  text-decoration: none;
+  padding: 10px 26px;
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+
+
+
+/* ///////////////////////// Header*/
+
+.logo {
+  max-width: 250px;
+}
+
+header {
+  background-color: #87CEEB;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+main {
+  padding-top: 56px;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 1em 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a, nav > ul > li > a:visited {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #663399;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle li .icon{
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+}
+
+.navtoggle.responsive nav {
+  padding 24px 0;
+}
+
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80.0.5)
+}
+
+.navtoggle.responsive li: last-child {
+  padding: 0 0 10px;
+}
+
+/* ///////////////////////// Homepage*/
+
+footer {
+  text-align: center;
+
+}
+
+footer a {
+  color:  #663399
+}
+
+
+#work .row { padding-bottom: 25px; border-bottom: 1px solid #F0F8FF; }
+
+#hero {
+  background-color: #87CEEB;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+
+/* ///////////////////////////////////////// footer and social media icons */
+
+.social {
+  text-align: center;
+}
+
+.social a  {
+display: inline-block;
+margin: 0 5px;
+}
+
+.social img {
+width: 50px;
+height: auto;
+
+}
+
+/* ////////////////////// MEDIA QUERIES */
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  /* ////////////////////header and nav bar*/
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  nav > ul {
+    margin:   1em 0;
+  }
+
+  .nav > ul > li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child{
+    display: none;
+  }
+
+.navtoggle.responsive nav {
+  padding 0;
+}
+
+.navtoggle.responsive li {
+  padding: 0;
+  border-top: 0;)
+}
+
+.navtoggle.responsive li: last-child {
+  padding: 0;
+}
+  
+nav a {
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+  }
+
+/* home page hero */
+
+#hero span {
+  display: block;
+}
+
+/* ////////////////////////continue styling */
+
+ .container {
+    margin: 0 1.75em;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+    padding: 0 0.65em;
+    float: left;
+  }
+
+  .row::after{
+    content:"";
+    clear: both;
+    display: table;
+  }
+
+   #animation {
+    float: left;
+  }
+
+  .button {
+    margin: 16px 0;
+  }
+
+/* //////////////////////////// Typography */
+  body {
+    font-size: 18px;
+  }
+ 
+/* ///////////////////////////about page */
+
+  #about-page h3{
+    margin-top: 0;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  #my-img{
+    width: 500px;
+  }
+
+ 
+  
+}
+
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  main div.container:last-of-type {
+    border-radius: 0 0 16px 16px;
+  }
+
+  header {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* ==============================
+X-Large devices (1440px or larger) code woul be @media only screen and (min-width: 1440px) {}
+================================= */
+@media only screen and (min-width: 1440px) {
+
+}
+
+.imgwrapper,
+.deswrapper {
+  padding: 10px;
+}
+
+@keyframes color-change {
+  0% {
+    fill: #fff200;
+  }
+
+  50% {
+    fill: #fcffad;
+  }
+
+  100% {
+    fill: #f76414;
+  }
+}
+
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
+
+@keyframes cloud-move {
+  from {
+    transform: translate(0, 1px);
+  }
+
+  to {
+    transform: translate(200px, 1px);
+  }
+}
+
+.clouds {
+  animation: 30s cloud-move infinite alternate linear;
+}
+
+
+
+
+
+/*. is thiss necessary ????
+
+#work h3 {
+    font-size: 4em;
+  }
+
+  #work p {
+    font-size: 1.25em;
+  }
+
+  */
+
+
+
+
+
